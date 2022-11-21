@@ -27,14 +27,104 @@ ul {
 
 /* другорядний колір фону #F5F5F5 */
 
+/* Шапка */
 .site.nav .link {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-        font-style: normal;
+    
+        
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
 }
+
+.site.nav .tittle {
+    
+        
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+}
+
+/* < !-- Блок Списку --> */
+.section .tittle {
+
+   
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    
+}
+
+.section .section-description {
+   
+        font-size: 14px;
+        line-height: 1.2;
+        /* or 171% */
+    
+       }
+
+/* Блок з Фото */
+
+.foto .tittle {
+   
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+}
+/* < !-- Команда --> */
+
+.team .tittle {
+position: absolute;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.team .name {
+            font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        
+}
+
+    .team .description {
+
+font-size: 16px;
+line-height: 1.2;
+
+    }
+
+/* Портфоліо Блок Нав */
+
+
+.section-nav .title {
+    cursor: pointer;
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        /* identical to box height, or 162% */
+    
+          
+} 
+
+/* Приклади Робіт */
+
+.section-example .tittle {
+     
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.2;
+          
+        
+    
+        color: #212121;
+}
+
+.section-example .text 
+
 
 .link:hover {
 color: var(--accent-color)
