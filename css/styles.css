@@ -1,10 +1,10 @@
-.body {
+body {
 background-color: #FFFFFF;
 color: #212121;
 cursor: pointer;
 font-style: normal;
 font-weight: 400;
-font-family: 'Roboto', 'Montserrat', 'Raleway';
+font-family: 'Roboto', 'Montserrat', 'Raleway', sans-serif;
 }
 ul {
     list-style: none;
@@ -28,13 +28,22 @@ ul {
 /* другорядний колір фону #F5F5F5 */
 
 /* Шапка */
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+         color: #2196F3;
+}
+
 .site.nav .link {
     color: var(--primary-text-color);
     
         
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.2;
 }
 
 .site.nav .tittle {
@@ -45,8 +54,30 @@ ul {
         line-height: 1.2;
 }
 
+/* Блок Герой */
+.hero-description {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.2;
+}
+
+.hero-button {
+    background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.2;
+                
+            color: #FFFFFF;
+}
+
 /* < !-- Блок Списку --> */
-.section .tittle {
+.section-tittle {
 
    
     font-weight: 700;
@@ -59,8 +90,7 @@ ul {
    
         font-size: 14px;
         line-height: 1.2;
-        /* or 171% */
-    
+          
        }
 
 /* Блок з Фото */
@@ -73,23 +103,23 @@ ul {
 }
 /* < !-- Команда --> */
 
-.team .tittle {
+.team-tittle {
 position: absolute;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
 }
 
-.team .name {
+.team-name {
             font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         /* identical to box height */
     
         
 }
 
-    .team .description {
+    .team-description {
 
 font-size: 16px;
 line-height: 1.2;
@@ -99,7 +129,7 @@ line-height: 1.2;
 /* Портфоліо Блок Нав */
 
 
-.section-nav .title {
+.section-nav-title {
     cursor: pointer;
         
         font-weight: 500;
@@ -112,7 +142,7 @@ line-height: 1.2;
 
 /* Приклади Робіт */
 
-.section-example .tittle {
+.section-example-tittle {
      
         font-weight: 700;
         font-size: 18px;
@@ -123,8 +153,22 @@ line-height: 1.2;
         color: #212121;
 }
 
-.section-example .text 
+.section-example-text 
 
+{font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;}
+
+/* Футер */
+.adress {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+}
 
 .link:hover {
 color: var(--accent-color)
