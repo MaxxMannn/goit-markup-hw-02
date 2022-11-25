@@ -1,7 +1,6 @@
 body {
 background-color: #FFFFFF;
 color: #212121;
-cursor: pointer;
 font-style: normal;
 font-weight: 400;
 font-family: 'Roboto', 'Montserrat', 'Raleway', sans-serif;
@@ -28,7 +27,7 @@ ul {
 /* другорядний колір фону #F5F5F5 */
 
 /* Шапка */
-.logo {
+.logo-link{
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -37,60 +36,100 @@ ul {
          color: #2196F3;
 }
 
-.site.nav .link {
-    color: var(--primary-text-color);
-    
-        
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.2;
+.logo-header {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+color: #000;
 }
 
-.site.nav .tittle {
-    
-        
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.2;
+ a{
+    text-decoration: none;
+}
+
+.link-current {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #2196F3;
+}
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: var(--primary-text-color);
 }
 
 /* Блок Герой */
+.hero {
+    margin: 20px;
+    background: #2F303A;
+    
+}
 .hero-description {
+        
+    background: #2F303A;
+    color: #FFFFFF;
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.2;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 .hero-button {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
     background: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 1.2;
-                
-            color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #FFFFFF;
 }
 
 /* < !-- Блок Списку --> */
 .section-tittle {
-
-   
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
     
 }
 
-.section .section-description {
+.section-description {
    
-        font-size: 14px;
-        line-height: 1.2;
-          
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.2;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;  
        }
 
 /* Блок з Фото */
@@ -102,43 +141,101 @@ ul {
         line-height: 1.2;
 }
 /* < !-- Команда --> */
+.team {
+    margin-top: 94px;
+    width: 1600px;
+height: 648px;
+left: 0px;
+top: 1446px;
+background: #F5F4FA;
+}
 
 .team-tittle {
-position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
 }
 
 .team-name {
-            font-weight: 500;
-        font-size: 16px;
-        line-height: 1.2;
-        /* identical to box height */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
     
         
 }
 
     .team-description {
-
-font-size: 16px;
-line-height: 1.2;
-
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #757575;
+        margin-bottom: 20px;
     }
+
+/* Футер */
+.footer {
+    margin-top: 850px;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    color: #FFFFFF;
+    background: #2F303A;
+
+   }
+.adress {
+    margin-top: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer-adress {
+    margin-top: 9px
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}   
 
 /* Портфоліо Блок Нав */
 
 
-.section-nav-title {
-    cursor: pointer;
-        
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.2;
-        /* identical to box height, or 162% */
-    
-          
+.section-nav-button {
+width: 73px;
+height: 38px;
+left: 512px;
+top: 174px;
+color: #FFFFFF;
+background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+cursor: pointer;     
 } 
+
 
 /* Приклади Робіт */
 
@@ -161,14 +258,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 30px;}
 
-/* Футер */
-.adress {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-}
+
 
 .link:hover {
 color: var(--accent-color)
