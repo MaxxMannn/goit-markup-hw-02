@@ -108,6 +108,7 @@ border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
+    font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.06em;
     color: #FFFFFF;
@@ -233,10 +234,6 @@ color: #FFF;
 
 .section-nav-button {
 cursor: pointer;   
-width: 125px;
-height: 38px;
-left: 593px;
-top: 174px;
 background-color:  #F5F4FA;
 border-radius: 4px;
 
@@ -276,7 +273,10 @@ color: #212121;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.9;}
+line-height: 1.9;
+color: #757575;
+}
+
 
 
 
